@@ -1,0 +1,92 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Custom
+textarea {
+    resize: none;
+}
+
+.bg-gray {
+    background-color: #F2F2F2;
+}
+
+.rounded-5 {
+    border-radius: .75rem !important;
+}
+
+.rounded-top-5 {
+    border-top-left-radius: .75rem !important;
+    border-top-right-radius: .75rem !important;
+}
+
+.rounded-bottom-5 {
+    border-bottom-left-radius: .75rem !important;
+    border-bottom-right-radius: .75rem !important;
+}
+
+.aside {
+    position: sticky;
+    top: 70px;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.profile-card {
+    align-items: flex-start;
+}
+
+.profile-name {
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.profile-follow {
+    text-align: right;
+}
+
+.tweet-dropdown::after {
+    display: none;
+}
+
+.cover {
+    object-fit: cover;
+}
+
+.notifications-dropdown {
+    max-height: 250px; 
+    overflow: auto;
+}
+
+@media(max-width: 540px) {
+    .profile-card {
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .profile-name {
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    
+    .profile-follow {
+        text-align: center;
+        flex-wrap: wrap;
+    }
+}
+
+@media(max-width: 425px) {
+    .notifications-dropdown {
+        max-width: 180px;
+    }
+}
