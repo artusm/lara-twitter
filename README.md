@@ -1,3 +1,4 @@
+# lara-twitter
 A simple Twitter clone made with Laravel, Livewire and Bootstrap
 
 ![msedge_1rCAms2pYg](https://user-images.githubusercontent.com/36174850/172233541-3f152179-eb50-4ffc-8b6a-4205d9b35495.png)
